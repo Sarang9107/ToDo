@@ -1,16 +1,24 @@
-# todo
+Flutter To-Do App with Hive
 
-A new Flutter project.
+The Flutter To-Do App is a lightweight and high-performance task management application built using Flutter and Hive, a fast and NoSQL database for local storage. This app enables users to efficiently organize their tasks while ensuring smooth performance and offline support.
 
-## Getting Started
+Key Features:
+Task Management:
+Users can add, edit, delete, and mark tasks as completed.
+Tasks are stored persistently using Hive (NoSQL database) for fast access.
 
-This project is a starting point for a Flutter application.
+Offline Support:
+The app works completely offline with Hive’s local storage.
+Data remains available even after restarting the app.
 
-A few resources to get you started if this is your first Flutter project:
+Light & Dark Mode:
+The app provides both light and dark themes for better usability.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Fast & Efficient Performance:
+Hive is optimized for speed, making the app extremely responsive.
+NoSQL-based key-value storage ensures fast data retrieval.
+Tech Stack Used:
+Frontend: Flutter (Dart)
+Local Database: Hive (NoSQL, Key-Value Storage)
+UI: Material Design with Flutter Widgets
+Storage: SharedPreferences (For theme and user preferences)
